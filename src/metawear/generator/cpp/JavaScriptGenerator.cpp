@@ -69,7 +69,7 @@ void JavaScriptGenerator::create(ostream& os, const CHeaderFile& header) {
         << "// This JavaScript module is generated from the MetaWear C++ API header files" << endl
         << "// Do not edit" << endl
         << "var ref = require('ref');" << endl
-        << "var ffi = require('ffi');" << endl
+        << "var ffi = require('ffi-napi');" << endl
         << "var Struct = require('ref-struct');" << endl
         << "var ArrayType = require('ref-array');" << endl
         << "var Enum = require('enum');" << endl

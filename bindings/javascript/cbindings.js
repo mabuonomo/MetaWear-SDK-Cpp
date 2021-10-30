@@ -2,7 +2,7 @@
 // This JavaScript module is generated from the MetaWear C++ API header files
 // Do not edit
 var ref = require('ref');
-var ffi = require('ffi');
+var ffi = require('ffi-napi');
 var Struct = require('ref-struct');
 var ArrayType = require('ref-array');
 var Enum = require('enum');
